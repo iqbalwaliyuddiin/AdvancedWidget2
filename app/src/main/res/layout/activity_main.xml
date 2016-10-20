@@ -12,7 +12,24 @@
     tools:context="id.sch.smktelkom_mlg.learn.advancedwidget2.MainActivity">
 
     <TextView
+        android:text="Nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextNama" />
+
+    <Button
+        android:text="Proses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonProses" />
+
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        tools:text="Hasil"
+        android:id="@+id/textViewHasil"/>
 </LinearLayout>
